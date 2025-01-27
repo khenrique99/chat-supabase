@@ -13,7 +13,8 @@
     "format": "prettier --write src/",
     "supabase:init": "supabase init",
     "supabase:login": "supabase login",
-    "supabase:link": "supabase link --project-ref hmrnklatebqbkyaqgzlc"
+    "supabase:link": "supabase link --project-ref hmrnklatebqbkyaqgzlc",
+    "postinstall": "npm rebuild"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.48.0",
